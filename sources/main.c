@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 
     if (argc != 3)
     {
-        printf("port argument missing");
+        printf("host and port argument missing");
         return 1;
     }
     host = argv[1];
